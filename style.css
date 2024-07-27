@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    border: none;
+}
+body{
+    background-image: url("bg.png");
+    background-size: cover;
+}
+.nav-bar{
+    height: 100px;
+    width:95%;
+    /* border: 2px solid white; */
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: 20px;
+    /* position: absolute; */
+    transition: 0.5s linear;
+    background: transparent;
+}
+.logo-top{
+    height: 60px;
+    width: 80px;
+    /* border: 2px solid white; */
+    background-image: url("logo.png");
+    background-size: cover;
+}
+.nav-heading{
+    height: 80px;
+    width: 60%;
+    /* border: 2px solid white; */
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+}
+.nav-heading :hover{
+    background-color: orangered;
+   border-radius: 10px;
+}
+.cart{
+    height: 70px;
+    width: 100px;
+    /* border: 2px solid white; */
+    color: white;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+.main-body{
+    height: 550px;
+    width: 95%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.text-div{
+    height: 350px;
+    width: 450px;
+    /* border: 2px solid white; */
+    color: rgb(255, 162, 0);
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.img-div{
+    height: 500px;
+    width: 450px;
+    /* border: 2px solid white; */
+    background-image: url("main.png");
+    background-size: cover;
+}
+.para{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.text-div button{
+    font-size: 20px;
+    background-color: orangered;
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.about-us{
+    height: 400px;
+    width: 95%;
+    /* border: 2px solid white; */
+    margin-left: 20px;
+    background-color: white;
+    justify-content: space-evenly;
+    display: flex;
+}
+.about-img{
+    height: 300px;
+    width: 350px;
+    /* border: 2px solid black; */
+    background-image: url("about.jpg");
+    background-size: cover;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.about-text{
+    height: 370px;
+    width: 500px;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.his-para{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.about-text button{
+    font-size: 20px;
+    background-color: orangered;
+    height: 45px;
+    width: 150px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.products{
+    height: 1100px;
+    width: 95%;
+    margin-left: 20px;
+    background-color: white;
+}
+.product-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.box-div{
+    height: 1000px;
+    width: 95%;
+    margin-left: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.full-box{
+    height: 420px;
+    width: 350px;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.price{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+}
+.price-btn{
+    height: 30px;
+    width: 70px;
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+.cart-btn{
+    height: 30px;
+    width: 150px;
+    color: black;
+    border: 2px solid orangered;
+    font-size: 20px;
+}
+.cart-btn :hover{
+    background-color: orangered;
+}
+
+.full-box h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 15px;
+}
+.box1{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid black; */
+    background-image: url("p1.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.box2{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid black; */
+    background-image: url("p2.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.box3{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid black; */
+    background-image: url("p3.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.box4{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid black; */
+    background-image: url("p4.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.box5{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid black; */
+    background-image: url("p5.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.box6{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid black; */
+    background-image: url("p6.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.customer{
+    height: 500px;
+    width: 95%;
+    margin-left: 20px;
+    background-color: white;
+}
+.customer h2{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.people{
+    height:400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cus{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid black; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(213, 233, 250);
+    border-radius: 10px;
+    
+}
+.cus h3{
+    margin-top: 20px;
+}
+.cus p{
+    margin-top: 20px;
+}
+.p1{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    background-image: url("pratik.jpg");
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.p2{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    background-image: url("rev2.jpg");
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.p3{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    background-image: url("rev3.jpg");
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.footer{
+    height: 150px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.foot{
+    height: 160px;
+    width: 300px;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+.foot1{
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot h2{
+    margin-top: 15px;
+}
+.foot p{
+    margin-top: 10px;
+}
+.copyright{
+    height: 90px;
+    width: 100%;
+    background-color: #141619;
+    color: white;
+}
+.sign{
+    height: 40px;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.logo i{
+    margin: 20px;
+    color: white;
+}
